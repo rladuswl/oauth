@@ -23,8 +23,10 @@ configurations {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-mustache'
     implementation('org.mariadb.jdbc:mariadb-java-client')
     implementation('org.springframework.boot:spring-boot-configuration-processor')
+    implementation 'org.projectlombok:lombok'
     implementation 'org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4.1:1.16'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
